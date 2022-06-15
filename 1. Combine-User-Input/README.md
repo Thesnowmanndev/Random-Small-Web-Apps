@@ -26,7 +26,7 @@
 ### Images
 
 Dark Theme & No User Input
-![Alt text]( "Picture of Page with Dark Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Combine-User-Input/1.%20Combine-User-Input/images/dark-theme-no-input.png "Picture of Page with Dark Theme")
 
 Light Theme
-![Alt text]( "Picture of Page with Light Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Combine-User-Input/1.%20Combine-User-Input/images/light-theme-input.png "Picture of Page with Light Theme")
