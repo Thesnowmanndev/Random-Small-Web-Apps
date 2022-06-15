@@ -58,7 +58,7 @@ class="text-center text-white bg-slate-900 dark:text-slate-800 dark:bg-white"
                 <p>
                     Check the code out on
                     <a
-                    href="https://github.com/Thesnowmanndev"
+                    href="https://github.com/Thesnowmanndev/Random-Small-Web-Apps/tree/main/0.%20Hello-World"
                     target="_blank"
                     class="underline decoration-slate-800 text-sky-500"
                     >
