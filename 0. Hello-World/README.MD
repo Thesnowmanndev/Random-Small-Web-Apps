@@ -13,6 +13,6 @@
 
 ### Images
 
-![Alt text](.\images\Page-Load.png "Page on Initial Load")
-![Alt text](.\images\Basic-Submit.png "Clicking submit button with no name input")
-![Alt text](.\images\Name-Submit.png "Clicking submit button with name input")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/0.%20Hello-World/images/Page-Load.png "Page on Initial Load")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/0.%20Hello-World/images/Basic-Submit.png "Clicking submit button with no name input")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/0.%20Hello-World/images/Name-Submit.png "Clicking submit button with name input")
