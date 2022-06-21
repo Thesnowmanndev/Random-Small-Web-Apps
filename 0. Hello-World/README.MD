@@ -27,7 +27,7 @@
 
 System Dark:
 
-![Alt text]( "Page on Initial Load")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/0.%20Hello-World/images/System-Dark.png "Page on Initial Load")
 
 System Light:
 
