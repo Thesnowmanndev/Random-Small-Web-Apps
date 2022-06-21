@@ -20,7 +20,9 @@
 ## Images:
 
 System Dark
+
 ![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/JS-Datetime/2.%20Date-time/images/System-Dark.png "Picture of Page with Dark Theme")
 
 System Light
+
 ![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/JS-Datetime/2.%20Date-time/images/System-Light.png "Picture of Page with Light Theme")
