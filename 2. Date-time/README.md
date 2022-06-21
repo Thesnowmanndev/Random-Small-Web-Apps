@@ -11,4 +11,16 @@
 
 ## Concepts Covered:
 
+- Creating a new date class
+- Setting variables to current date using the date class
+- Setting variables to current hours & minutes using date class
+- Using if statements to ensure hours and minutes print correctly if under 10
+- Modifying HTML elements dynamically on refresh
+
 ## Images:
+
+System Dark
+![Alt text]( "Picture of Page with Dark Theme")
+
+System Light
+![Alt text]( "Picture of Page with Light Theme")
