@@ -16,7 +16,9 @@
 
 ## Concepts Covered:
 
--
+- Obtaining numbers from form inputs
+- Performing a calculation based off of a button click event
+- Displaying result in different colors based on positive or negative numbers
 
 ## Images
 
