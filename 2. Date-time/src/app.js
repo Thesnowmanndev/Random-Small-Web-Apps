@@ -76,7 +76,7 @@ function setHeader() {
     </h1>
     <p>
         This a simple web application made with Javascript that will modify
-        the webpage to display the current date and time that that page is
+        the webpage to display the current date and time that the page is
         loaded. 
     </p>
     <p class="mt-4">
