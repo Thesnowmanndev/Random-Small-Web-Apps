@@ -22,8 +22,16 @@
 
 System Dark
 
-![Alt text]( "Picture of Page with Dark Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Simple-Math/3.%20Simple-Math/images/system-dark-subtract-negative.png "Picture of Page with Dark Theme")
 
 System Light
 
-![Alt text]( "Picture of Page with Light Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Simple-Math/3.%20Simple-Math/images/system-light-add-positive.png "Picture of Page with Light Theme")
+
+Multiply
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Simple-Math/3.%20Simple-Math/images/multiply.png "Picture of app doing multiplication")
+
+Divide
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Simple-Math/3.%20Simple-Math/images/division.png "Picture of app doing division")
