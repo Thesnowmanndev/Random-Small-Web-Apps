@@ -21,16 +21,16 @@
 
 Light + Default Color Snowman
 
-![Alt text](link "Default Snowman")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Modify-Classes/05.%20Modify-Classes/images/system-light-default-snowman.png "Default Snowman")
 
 Dark + Sky Color Snowman
 
-![Alt text](link "Sky Snowman")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Modify-Classes/05.%20Modify-Classes/images/system-dark-sky-snowman.png "Sky Snowman")
 
 Light + Rose Color Snowman
 
-![Alt text](link "Rose Snowman")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Modify-Classes/05.%20Modify-Classes/images/system-light-rose-snowman.png "Rose Snowman")
 
 Dark + Emerald Color Snowman
 
-![Alt text](link "Emerald Snowman")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Modify-Classes/05.%20Modify-Classes/images/system-dark-emerald-snowman.png "Emerald Snowman")
