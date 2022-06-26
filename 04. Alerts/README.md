@@ -25,8 +25,8 @@
 
 Dark
 
-![Alt text](link "Picture")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Alerts/04.%20Alerts/images/system-dark-element-deleted.png "System dark with user input")
 
 Light
 
-![Alt text](link "Picture")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Alerts/04.%20Alerts/images/system-light-with-alert.png "System light with alert")
