@@ -21,6 +21,10 @@
 
 ## Images
 
-Picture 1
+Dark
 
-![Alt text](link "Picture")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/00.%20Template/images/dark.png "Picture")
+
+Light
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/00.%20Template/images/light.png "Picture")
