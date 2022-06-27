@@ -1,6 +1,7 @@
 const navbar = document.getElementById("navbar");
 const app = document.getElementById("app-content");
-const deleteElement = document.getElementById("delete-container");
+const deleteElement = document.getElementById("delete-element");
+const addElement = document.getElementById("add-element");
 const footer = document.getElementById("footer");
 
 const navbarContent = `
@@ -50,7 +51,7 @@ const appContent = `
     </div>
 `;
 
-const deletedContent = `
+const addContent = `
     <h1>Element Deleted.</h1>
 `;
 
@@ -76,7 +77,10 @@ let userDelete = () => {
   }
 };
 
-let showDelete = () => (deleteElement.innerHTML = deletedContent);
+let showDelete = () => {
+  deleteElement.parentNode.removeChild(deleteElement);
+  addElement.innerHTML = addContent;
+};
 
 let writeNavbar = () => (navbar.innerHTML = navbarContent);
 let writeApp = () => (app.innerHTML = appContent);

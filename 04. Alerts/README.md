@@ -19,7 +19,7 @@
 - Javascript Alert Messages
 - Using icons in buttons
 - Creating inputs with JS
-- Modifying HTML based on correct input - This can be expanded on in the future to actually delete content
+- Deleting an HTML Element with parentNode.removeChild(); upon function call
 
 ## Images
 
