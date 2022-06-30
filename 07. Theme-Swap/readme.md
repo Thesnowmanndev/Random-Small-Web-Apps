@@ -18,24 +18,24 @@
 
 Light
 
-![Alt text](link "Light Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/light-normal.png "Light Theme")
 
 Light - Mobile size
 
-![Alt text](link "Light Theme in mobile view")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/light-mobile.png "Light Theme in mobile view")
 
 Light - Mobile menu open
 
-![Alt text](link "Light Theme in mobile view with menu open")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/light-mobile-menu.png "Light Theme in mobile view with menu open")
 
 Dark
 
-![Alt text](link "Dark Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/dark-normal.png "Dark Theme")
 
 Dark - Mobile size
 
-![Alt text](link "Dark Theme in mobile view")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/dark-mobile.png "Dark Theme in mobile view")
 
 Dark - Mobile menu open
 
-![Alt text](link "Dark Theme in mobile view with menu open")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/dark-mobile-menu.png "Dark Theme in mobile view with menu open")
