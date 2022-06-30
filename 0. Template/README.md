@@ -1,30 +1,41 @@
-# Template App
+# 07. Theme-Swap
 
-## Goals
+- Implement daisyUI with TailwindCSS to add theme swapping capabilites to template app.
 
-- a
-- b
-- c
+## Concepts Covered
+
+- Implementing daisyUI components / theme functionality
+- Note: Mobiles do have borders on all sides, im just bad at pixel perfect cropping
 
 ## Setup
 
 1. Fork Repo
-2. Open folder in VS Code / Open Terminal and type `npm install`
-3. Once previous command is complete type `npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch`
-4. View page, customize, tinker, learn, enjoy!
-
-## Concepts Covered
-
-- 1
-- 2
-- 3
+2. Type `npm install`
+3. Type `npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch`
+4. Preview with Live extension
 
 ## Images
 
-Dark
-
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/00.%20Template/images/dark.png "Picture")
-
 Light
 
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/00.%20Template/images/light.png "Picture")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/light-normal.png "Light Theme")
+
+Light - Mobile size
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/light-mobile.png "Light Theme in mobile view")
+
+Light - Mobile menu open
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/light-mobile-menu.png "Light Theme in mobile view with menu open")
+
+Dark
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/dark-normal.png "Dark Theme")
+
+Dark - Mobile size
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/dark-mobile.png "Dark Theme in mobile view")
+
+Dark - Mobile menu open
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/dark-mobile-menu.png "Dark Theme in mobile view with menu open")
