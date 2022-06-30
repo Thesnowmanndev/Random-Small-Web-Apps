@@ -3,30 +3,76 @@ const app = document.getElementById("app-content");
 const footer = document.getElementById("footer");
 
 const navbarContent = `
-    <div class="flex-shrink-0 cursor-none">
-        <i class="fas fa-laptop-code ml-10 mr-2 text-sky-400"></i>
-        <span>Small Apps</span>
+<div class="navbar bg-base-100 border-b border-white py-2">
+    <div class="navbar-start">
+        <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                />
+                </svg>
+            </label>
+            <ul
+                tabindex="0"
+                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            >
+                <li><a class="hover:text-sky-400" href="./index.html">Home</a></li>
+                <li>
+                <a
+                    class="hover:text-sky-400"
+                    href="https://github.com/Thesnowmanndev/Random-Small-Web-Apps"
+                    target="_blank"
+                    >Code</a
+                >
+                </li>
+                <li>
+                <a  class="hover:text-sky-400"
+                    href="https://github.com/Thesnowmanndev" target="_blank"
+                    >About</a
+                >
+                </li>
+            </ul>
+        </div>
+        <a class="btn btn-ghost normal-case tracking-tight text-lg font-thin hover:text-sky-400"
+        ><i class="fas fa-laptop-code mr-2 text-sky-400"></i> Small Apps</a
+        >
     </div>
-    <i class="fas fa-bars visible md:invisible mr-10 md:mr-0 text-sky-400 cursor-pointer" onclick="logClicked();"></i>
-    <ul class="hidden md:flex overflow-x-hidden mr-10 tracking-tight">
-        <li class="mr-6 p-1 hover:text-sky-400 border-b border-sky-400 hover:border-orange-400">
+    <div class="navbar-end hidden lg:flex">
+        <ul class="menu menu-horizontal p-0 tracking-tight">
+        <li
+            class="hover:text-sky-400 border-b border-sky-400 hover:border-orange-400"
+        >
             <a href="./index.html">Home</a>
         </li>
-        <li class="mr-6 p-1 hover:text-sky-400">
-            <a href="https://github.com/Thesnowmanndev/Random-Small-Web-Apps" target="_blank">
-                Code
-            </a>
+        <li class="hover:text-sky-400">
+            <a
+            href="https://github.com/Thesnowmanndev/Random-Small-Web-Apps"
+            target="_blank"
+            >Code</a
+            >
         </li>
-        <li class="mr-6 p-1 hover:text-sky-400">
-            <a href="https://github.com/Thesnowmanndev" target="_blank">
-                About
-            </a>
+        <li class="hover:text-sky-400">
+            <a href="https://github.com/Thesnowmanndev" target="_blank"
+            >About</a
+            >
         </li>
-    </ul>
+        </ul>
+    </div>
+</div>
 `;
 
 const appContent = `
-    <div class="mt-4 md:mt-8 px-2">
+    <div class="mt-4 md:mt-6 px-2">
         <h1 class="hover:text-sky-400">Hello, World!</h1>
         <h2 class="text-sm mt-10 underline">00. Template:</h2>
         <p class="mt-2">The app will soon be created from this template. If this message still exists, I overlooked it and will change it to match a descriptive paragraph of the app.</p>
