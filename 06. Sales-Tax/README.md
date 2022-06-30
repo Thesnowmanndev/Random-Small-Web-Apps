@@ -2,6 +2,7 @@
 
 - Create an app that allows the user to choose their state and then input the cost of an item they desire to purchase.
 - Output the total cost (item-cost + (item-cost x sales-tax))
+- NOTE: This is a hard-coded app, I plan on having future variations of this app where I can pull data from an API and another version where I can pull data from a database.
 
 ## Concepts Covered
 

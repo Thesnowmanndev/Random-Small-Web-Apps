@@ -36,10 +36,20 @@
         id="navbar"
         class="flex justify-between items-center py-4 border-b border-slate-900 dark:border-gray-200 text-slate-600 dark:text-white"
       ></div>
-      <div id="app-content" class="text-slate-600 dark:text-white"></div>
-      <div id="footer" class="flex mt-20 md:mt-96 text-gray-400"></div>
+      <div id="app-content">
+        <div id="app-intro" class="text-slate-600 dark:text-white"></div>
+        <div
+          id="state-selection"
+          class="mt-4 md:mt-8 flex justify-center"
+        ></div>
+        <div
+          id="calculation-output"
+          class="text-slate-600 dark:text-white flex justify-center mt-4 md:mt-6 text-xl"
+        ></div>
+      </div>
+      <div id="footer" class="flex mt-20 md:mt-40 text-gray-400"></div>
     </div>
 
-    <script src="./app.js"></script>
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
