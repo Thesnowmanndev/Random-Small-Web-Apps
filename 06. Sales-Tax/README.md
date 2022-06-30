@@ -6,6 +6,11 @@
 
 ## Concepts Covered
 
+- Creating JSON data file with arrays
+- Importing JSON files in JS
+- Pulling JSON data using selection value option on button click
+- Performing semi-complex calculations upon button click
+
 ## Setup
 
 1. Fork Repo
@@ -14,3 +19,11 @@
 4. Preview with Live extension
 
 ## Images
+
+Light + Console
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Sales-Tax/06.%20Sales-Tax/images/light%2Bconsole.png "Light Theme")
+
+Dark + Console
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Sales-Tax/06.%20Sales-Tax/images/dark%2Bconsole.png "Dark Theme")
