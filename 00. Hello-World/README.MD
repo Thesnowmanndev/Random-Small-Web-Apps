@@ -27,20 +27,8 @@
 
 System Dark:
 
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/0.%20Hello-World/images/System-Dark.png "Page on Initial Load")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/00.%20Hello-World/images/System-Dark.png "Page on Initial Load")
 
 System Light:
 
 Require's theme fixing at another date
-
-Initial Page Load:
-
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/0.%20Hello-World/images/Page-Load.png "Page on Initial Load")
-
-Just clicking submit with no data:
-
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/0.%20Hello-World/images/Basic-Submit.png "Clicking submit button with no name input")
-
-Inserting data and clicking submit:
-
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/0.%20Hello-World/images/Name-Submit.png "Clicking submit button with name input")
