@@ -20,8 +20,8 @@
 
 Light
 
-![Alt text](link "Light Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Greetings-Generator/08.%20Greetings-Generator/images/light.png "Light Theme")
 
 Dark
 
-![Alt text](link "Dark Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Greetings-Generator/08.%20Greetings-Generator/images/dark.png "Dark Theme")
