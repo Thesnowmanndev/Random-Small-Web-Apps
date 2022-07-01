@@ -20,16 +20,16 @@
 
 Light
 
-![Alt text](link "Light Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Tip-Helper/09.%20Tip-Helper/images/light.png "Light Theme")
 
 Dark
 
-![Alt text](link "Dark Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Tip-Helper/09.%20Tip-Helper/images/dark.png "Dark Theme")
 
 Light Small
 
-![Alt text](link "Light Theme Small")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Tip-Helper/09.%20Tip-Helper/images/light-small.png "Light Theme Small")
 
 Dark Small
 
-![Alt text](link "Dark Theme Small")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Tip-Helper/09.%20Tip-Helper/images/dark-small.png "Dark Theme Small")
