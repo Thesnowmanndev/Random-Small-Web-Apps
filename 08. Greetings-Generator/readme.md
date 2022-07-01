@@ -7,6 +7,7 @@
 - Generating a random number in order to request data from the JSON file
 - Pulling a random data from a JSON file when a button press takes place.
 - Displaying requested data in a HTML element
+- Returning multiple statements
 
 ## Setup
 

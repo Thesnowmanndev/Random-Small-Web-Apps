@@ -78,14 +78,15 @@ const navbarContent = `
 
 const appContent = `
     <div class="mt-4 md:mt-6 px-2">
-        <div id="greeting-message">
-            <h1 class="hover:text-sky-400">${greeting}!</h1>
+        <div id="greeting-heading">
+            <h1 class="hover:text-sky-400">${greeting}</h1>
         </div>
         <h2 class="text-sm mt-10 underline">08. Greetings-Generator:</h2>
         <p class="mt-2">This small web app will generate a friendly greeting upon page load and a simple click of the button below. What are you waiting for? Clickity click! Every small web app I am creating in this Random-Small-Web-Apps repo I try to include a random greeting, however I want to automate this process from here on out.</p>
         <div class="flex justify-center">
             <button id="btn" class="btn btn-active bg-sky-400 text-white my-6">New Greeting!</button>
         </div>
+        <div id="greeting-message" class="flex justify-center"></div>
     </div>
 `;
 
@@ -118,21 +119,25 @@ function getRandomInt(max) {
 }
 
 let chooseGreeting = () => {
-  greetingsId = getRandomInt(2);
+  greetingsId = getRandomInt(59);
   greeting = greetingsFile.greetingsListing[greetingsId].greeting;
   return greeting;
 };
 
 const btn = document.querySelector("#btn");
-const greetingOutput = document.querySelector("#greeting-message");
+const greetingHeadingOutput = document.querySelector("#greeting-heading");
+const greetingBodyOutput = document.querySelector("#greeting-message");
 
 btn.onclick = (event) => {
   event.preventDefault();
   greeting = chooseGreeting();
 
-  let newGreeting = `<h1 class="hover:text-sky-400">${greeting}!</h1>`;
+  let headingNewGreeting = `<h1 class="hover:text-sky-400">${greeting}</h1>`;
+  let bodyNewGreeting = `<h1 class="hover:text-sky-400 text-slate-800 dark:text-white text-2xl">${greeting}</h1>`;
+  let headingOutput = (greetingHeadingOutput.innerHTML = headingNewGreeting);
+  let bodyOutput = (greetingBodyOutput.innerHTML = bodyNewGreeting);
 
-  return (greetingOutput.innerHTML = newGreeting);
+  return headingOutput, bodyOutput;
 };
 
 // Debug
