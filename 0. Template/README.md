@@ -1,9 +1,10 @@
-# 07. Theme-Swap
+# 0. Template
 
-- Implement daisyUI with TailwindCSS to add theme swapping capabilites to template app.
+- Create a template app to copy and paste into every app at the start to speed up development. 
 
 ## Concepts Covered
 
+- Installing TailwindCSS / daisyUI
 - Implementing daisyUI components / theme functionality
 - Note: Mobiles do have borders on all sides, im just bad at pixel perfect cropping
 
