@@ -1,0 +1,6 @@
+{
+  "greetingsListing": [
+    { "id": 0, "greeting": "Some Text" },
+    { "id": 1, "greeting": "Hi" }
+  ]
+}
