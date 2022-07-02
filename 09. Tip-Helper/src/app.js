@@ -128,10 +128,16 @@ class="grid h-auto flex-grow card bg-base-300 rounded-box place-items-center"
             >
             Great Service (20%)
             </button>
+            <button
+            id="btn-outstanding"
+            class="btn dark:btn-outline btn-secondary btn-sm mt-4"
+            >
+            Outstanding Service (25%)
+            </button>
         </div>
     </div>
 </div>
-<div class="divider divider-horizontal"></div>
+<div class="divider divider-horizontal invisible md:visible"></div>
 <div
 class="grid h-auto flex-grow card bg-base-300 rounded-box place-items-center"
 >
@@ -181,6 +187,7 @@ const btnPoor = document.querySelector("#btn-poor");
 const btnMediocre = document.querySelector("#btn-mediocre");
 const btnExpected = document.querySelector("#btn-expected");
 const btnGreat = document.querySelector("#btn-great");
+const btnOutstanding = document.querySelector("#btn-outstanding");
 
 const appOutput = document.querySelector("#app-output");
 const preTipAmountOutput = document.querySelector("#pre-tip-amount");
@@ -221,8 +228,6 @@ btnPoor.onclick = (event) => {
 btnMediocre.onclick = (event) => {
   event.preventDefault();
 
-  event.preventDefault();
-
   preTipAmount = roundToTwo(Number(billAmountEntry.value.trim()));
   tipPercentage = 10;
   tipAmount = roundToTwo(Number(preTipAmount * 0.1));
@@ -232,8 +237,6 @@ btnMediocre.onclick = (event) => {
 };
 
 btnExpected.onclick = (event) => {
-  event.preventDefault();
-
   event.preventDefault();
 
   preTipAmount = roundToTwo(Number(billAmountEntry.value.trim()));
@@ -247,11 +250,20 @@ btnExpected.onclick = (event) => {
 btnGreat.onclick = (event) => {
   event.preventDefault();
 
-  event.preventDefault();
-
   preTipAmount = roundToTwo(Number(billAmountEntry.value.trim()));
   tipPercentage = 20;
   tipAmount = roundToTwo(Number(preTipAmount * 0.2));
+  total = roundToTwo(Number(tipAmount + preTipAmount));
+
+  displayDiningBill(preTipAmount, tipPercentage, tipAmount, total);
+};
+
+btnOutstanding.onclick = (event) => {
+  event.preventDefault();
+
+  preTipAmount = roundToTwo(Number(billAmountEntry.value.trim()));
+  tipPercentage = 25;
+  tipAmount = roundToTwo(Number(preTipAmount * 0.25));
   total = roundToTwo(Number(tipAmount + preTipAmount));
 
   displayDiningBill(preTipAmount, tipPercentage, tipAmount, total);
