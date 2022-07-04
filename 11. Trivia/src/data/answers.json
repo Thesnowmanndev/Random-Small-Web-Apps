@@ -1,0 +1,190 @@
+{
+  "blizzardAnswers": [
+    {
+      "id": 0,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a1",
+      "option": 1
+    },
+    {
+      "id": 1,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a2",
+      "option": 2
+    },
+    {
+      "id": 2,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a3",
+      "option": 3
+    },
+    {
+      "id": 3,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a4",
+      "option": 4
+    },
+    {
+      "id": 4,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a1",
+      "option": 1
+    }
+  ],
+  "diabloAnswers": [
+    {
+      "id": 0,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a1",
+      "option": 1
+    },
+    {
+      "id": 1,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a2",
+      "option": 2
+    },
+    {
+      "id": 2,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a3",
+      "option": 3
+    },
+    {
+      "id": 3,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a4",
+      "option": 4
+    },
+    {
+      "id": 4,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a1",
+      "option": 1
+    }
+  ],
+  "warcraftAnswers": [
+    {
+      "id": 0,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a1",
+      "option": 1
+    },
+    {
+      "id": 1,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a2",
+      "option": 2
+    },
+    {
+      "id": 2,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a3",
+      "option": 3
+    },
+    {
+      "id": 3,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a4",
+      "option": 4
+    },
+    {
+      "id": 4,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a1",
+      "option": 1
+    }
+  ],
+  "starcraftAnswers": [
+    {
+      "id": 0,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a1",
+      "option": 1
+    },
+    {
+      "id": 1,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a2",
+      "option": 2
+    },
+    {
+      "id": 2,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a3",
+      "option": 3
+    },
+    {
+      "id": 3,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a4",
+      "option": 4
+    },
+    {
+      "id": 4,
+      "answerOne": "a1",
+      "answertwo": "a2",
+      "answerThree": "a3",
+      "answerFour": "a4",
+      "correctAnswer": "a1",
+      "option": 1
+    }
+  ]
+}
