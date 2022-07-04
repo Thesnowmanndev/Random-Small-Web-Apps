@@ -1,12 +1,7 @@
 import questions from "../data/questions.json" assert { type: "json" };
 import answers from "../data/answers.json" assert { type: "json" };
 
-const navbar = document.querySelector("#navbar");
-const appHead = document.querySelector("#app-head");
 const appContent = document.querySelector("#app-content");
-const footer = document.querySelector("#footer");
-
-// Game Variables
 const blizzTitle = "Blizzard";
 
 let blizzardQuestions = questions.blizzardQuestions;
@@ -19,6 +14,7 @@ const maxId = questions.blizzardQuestions.reduce(
 let questionId = 0;
 let answerID = 0;
 
+// Assigns initial questions and answers
 let blizzQuestion = questions.blizzardQuestions[questionId].question;
 let blizzAnswerOneText = answers.blizzardAnswers[answerID].answerOne;
 let blizzAnswerTwoText = answers.blizzardAnswers[answerID].answertwo;
@@ -27,24 +23,30 @@ let blizzAnswerFourText = answers.blizzardAnswers[answerID].answerFour;
 
 let score = 0;
 
-// Game Functions
+// Starts Game
 function gameplay() {
   score = 0;
 
   manageGame();
 }
 
+// Gameplay Loop
 function manageGame() {
+  // Checks to see if at the end
   if (questionId > maxId) {
     let btnReplay = document.querySelector("#btn-replay");
+    let btnExit = document.querySelector("#btn-exit");
 
     btnReplay.onclick = (event) => {
       event.preventDefault();
       window.location.reload();
     };
-  }
 
-  console.log("Question " + questionId);
+    btnExit.onclick = (event) => {
+      event.preventDefault();
+      window.open("index.html", "_self");
+    };
+  }
 
   let btnAnswerOne = document.querySelector("#btn-answerOne");
   let btnAnswerTwo = document.querySelector("#btn-answerTwo");
@@ -97,14 +99,9 @@ function checkCorrect(option) {
   if (option == correctOption) {
     result = true;
     addToScore();
-    console.log("Correct");
-    console.log("Points: " + score);
-    console.log(result);
     populateAnswerCorrect();
   } else {
     result = false;
-    console.log("Incorrect.");
-    console.log(result);
     populateAnswerIncorrect();
   }
 
@@ -150,17 +147,17 @@ function assignNext() {
 }
 
 function advanceGame(questionId, answerID) {
-  let maxQuestions = 0;
-
+  // Checks to see if all questions have been answered
   if (questionId > maxId) {
     let scoreScreen = `
     <div class="card lg:card-side bg-base-100 shadow-xl">
         <figure><img src="https://placeimg.com/400/400/tech" alt="Album"></figure>
         <div class="card-body">
             <h2 class="card-title">Congratulations! You reached the end!</h2>
-            <p>You scored ${score} points!</p>
+            <p>You scored ${score} points out of 50 points!</p>
             <div id="options" class="card-actions justify-center md:justify-end">
                 <button id="btn-replay" class="btn btn-primary md:btn-outline">Replay</button>
+                <button id="btn-exit" class="btn btn-secondary md:btn-outline">Main Menu</button>
             </div>
         </div>
     </div>
@@ -169,12 +166,14 @@ function advanceGame(questionId, answerID) {
     return (appContent.innerHTML = scoreScreen);
   }
 
+  // Assigns new questions and answers
   blizzQuestion = questions.blizzardQuestions[questionId].question;
   blizzAnswerOneText = answers.blizzardAnswers[answerID].answerOne;
   blizzAnswerTwoText = answers.blizzardAnswers[answerID].answertwo;
   blizzAnswerThreeText = answers.blizzardAnswers[answerID].answerThree;
   blizzAnswerFourText = answers.blizzardAnswers[answerID].answerFour;
 
+  // Repopulates the App Content
   let newAppBodyContent = `
       <div class="card lg:card-side bg-base-100 shadow-xl">
       <figure><img src="https://placeimg.com/400/400/tech" alt="Album"></figure>

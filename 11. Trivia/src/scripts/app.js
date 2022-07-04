@@ -1,19 +1,7 @@
-import questions from "../data/questions.json" assert { type: "json" };
-import answers from "../data/answers.json" assert { type: "json" };
-
 const navbar = document.querySelector("#navbar");
 const appHead = document.querySelector("#app-head");
 const appContent = document.querySelector("#app-content");
 const footer = document.querySelector("#footer");
-
-const blizzTitle = "Blizzard";
-let questionId = 0;
-let answerID = 0;
-let blizzQuestion = questions.blizzardQuestions[questionId].question;
-let blizzAnswerOneText = answers.blizzardAnswers[answerID].answerOne;
-let blizzAnswerTwoText = answers.blizzardAnswers[answerID].answertwo;
-let blizzAnswerThreeText = answers.blizzardAnswers[answerID].answerThree;
-let blizzAnswerFourText = answers.blizzardAnswers[answerID].answerFour;
 
 // App Markup
 const navbarContent = `
@@ -40,7 +28,7 @@ const navbarContent = `
                 tabindex="0"
                 class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-                <li><a class="hover:text-sky-400  hover:border-b hover:border-orange-400" href="src\index.html">Home</a></li>
+                <li><a class="hover:text-sky-400  hover:border-b hover:border-orange-400" href="./index.html">Home</a></li>
                 <li>
                 <a
                     class="hover:text-sky-400  hover:border-b hover:border-sky-400"
@@ -66,7 +54,7 @@ const navbarContent = `
         <li
             class="hover:border-b hover:border-sky-400"
         >
-            <a href="src\index.html"><span class="text-sky-400 hover:text-orange-400">Home</span></a>
+            <a href="./index.html"><span class="text-sky-400 hover:text-orange-400">Home</span></a>
         </li>
         <li class="hover:text-orange-400 hover:border-b hover:border-sky-400">
             <a
@@ -100,13 +88,13 @@ const appBodyContent = `
 <div class="card lg:card-side bg-base-100 shadow-xl">
   <figure><img src="https://placeimg.com/400/400/tech" alt="Album"></figure>
   <div class="card-body">
-    <h2 class="card-title">${blizzTitle}:</h2>
-    <p>${blizzQuestion}</p>
-    <div id="options" class="card-actions justify-center md:justify-end">
-      <button id="btn-answerOne" class="btn btn-primary md:btn-outline">${blizzAnswerOneText}</button>
-      <button id="btn-answerTwo" class="btn btn-success md:btn-outline">${blizzAnswerTwoText}</button>
-      <button id="btn-answerThree" class="btn btn-secondary md:btn-outline">${blizzAnswerThreeText}</button>
-      <button id="btn-answerFour" class="btn btn-error md:btn-outline">${blizzAnswerFourText}</button>
+    <h2 class="card-title">Trivia Game!</h2>
+    <p>Welcome to the trivia game! We currently have four themed trivia modules. Choose one below!</p>
+    <div class="card-actions justify-center md:justify-end">
+      <button id="btn-blizzard" class="btn btn-primary md:btn-outline">Blizzard</button>
+      <button id="btn-warcraft" class="btn btn-success md:btn-outline">Warcraft</button>
+      <button id="btn-starcraft" class="btn btn-secondary md:btn-outline">Starcraft</button>
+      <button id="btn-diablo" class="btn btn-error md:btn-outline">Diablo</button>
     </div>
   </div>
 </div>
@@ -147,3 +135,28 @@ let createApp = () => {
 createApp();
 
 // App Logic
+const btnBlizzard = document.querySelector("#btn-blizzard");
+const btnWarcraft = document.querySelector("#btn-warcraft");
+const btnStarcraft = document.querySelector("#btn-starcraft");
+const btnDiablo = document.querySelector("#btn-diablo");
+
+btnBlizzard.onclick = (event) => {
+  event.preventDefault();
+
+  window.open("blizzard-trivia.html", "_self");
+};
+
+btnWarcraft.onclick = (event) => {
+  event.preventDefault();
+};
+
+btnStarcraft.onclick = (event) => {
+  event.preventDefault();
+};
+
+btnDiablo.onclick = (event) => {
+  event.preventDefault();
+};
+
+// Debug
+let logClicked = () => console.log("Clicked");
