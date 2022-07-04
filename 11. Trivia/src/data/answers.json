@@ -53,7 +53,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a1"
+      "correctAnswer": "a1",
+      "option": 1
     },
     {
       "id": 1,
@@ -61,7 +62,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a2"
+      "correctAnswer": "a2",
+      "option": 2
     },
     {
       "id": 2,
@@ -69,7 +71,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a3"
+      "correctAnswer": "a3",
+      "option": 3
     },
     {
       "id": 3,
@@ -77,7 +80,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a4"
+      "correctAnswer": "a4",
+      "option": 4
     },
     {
       "id": 4,
@@ -85,7 +89,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a1"
+      "correctAnswer": "a1",
+      "option": 1
     }
   ],
   "warcraftAnswers": [
@@ -95,7 +100,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a1"
+      "correctAnswer": "a1",
+      "option": 1
     },
     {
       "id": 1,
@@ -103,7 +109,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a2"
+      "correctAnswer": "a2",
+      "option": 2
     },
     {
       "id": 2,
@@ -111,7 +118,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a3"
+      "correctAnswer": "a3",
+      "option": 3
     },
     {
       "id": 3,
@@ -119,7 +127,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a4"
+      "correctAnswer": "a4",
+      "option": 4
     },
     {
       "id": 4,
@@ -127,7 +136,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a1"
+      "correctAnswer": "a1",
+      "option": 1
     }
   ],
   "starcraftAnswers": [
@@ -137,7 +147,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a1"
+      "correctAnswer": "a1",
+      "option": 1
     },
     {
       "id": 1,
@@ -145,7 +156,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a2"
+      "correctAnswer": "a2",
+      "option": 2
     },
     {
       "id": 2,
@@ -153,7 +165,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a3"
+      "correctAnswer": "a3",
+      "option": 3
     },
     {
       "id": 3,
@@ -161,7 +174,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a4"
+      "correctAnswer": "a4",
+      "option": 4
     },
     {
       "id": 4,
@@ -169,7 +183,8 @@
       "answertwo": "a2",
       "answerThree": "a3",
       "answerFour": "a4",
-      "correctAnswer": "a1"
+      "correctAnswer": "a1",
+      "option": 1
     }
   ]
 }

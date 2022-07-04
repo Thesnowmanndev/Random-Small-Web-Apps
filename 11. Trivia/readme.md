@@ -2,6 +2,8 @@
 
 - A simple web app that provides a trivia game for the user. The app asks the user a question from the question data bank, keeps track if the user got the answer correct or not, updates and displays progress of the current game session, and shows the results at the end of the game.
 
+### Note: This project is currently on hold until I figure out why my local server is getting a 404 error when attempting to import app, blizzardTriviaGame, and warcraftTriviaGame. Committing to main to prevent messing with file structure. Will remove this note when app is fully complete.
+
 ## Concepts Covered
 
 - Using JS arrays to store questions from the data bank.
@@ -17,19 +19,3 @@
 4. Preview with Live extension
 
 ## Images
-
-Light
-
-![Alt text](link "Light Theme")
-
-Dark
-
-![Alt text](link "Dark Theme")
-
-Light Small
-
-![Alt text](link "Light Theme Small")
-
-Dark Small
-
-![Alt text](link "Dark Theme Small")

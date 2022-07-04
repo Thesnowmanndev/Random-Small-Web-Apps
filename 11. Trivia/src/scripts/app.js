@@ -1,10 +1,10 @@
-const navbar = document.querySelector("#navbar");
-const appHead = document.querySelector("#app-head");
-const appContent = document.querySelector("#app-content");
-const footer = document.querySelector("#footer");
+export const navbar = document.querySelector("#navbar");
+export const appHead = document.querySelector("#app-head");
+export const appContent = document.querySelector("#app-content");
+export const footer = document.querySelector("#footer");
 
 // App Markup
-const navbarContent = `
+export const navbarContent = `
 <div class="navbar bg-base-100 py-2 md:px-8">
     <div class="navbar-start">
         <div class="dropdown">
@@ -73,7 +73,7 @@ const navbarContent = `
 </div>
 `;
 
-const appHeadContent = `
+export const appHeadContent = `
     <div>
         <div>
             <h1>How have you been?</h1>
@@ -84,7 +84,7 @@ const appHeadContent = `
     </div>
 `;
 
-const appBodyContent = `
+export const appBodyContent = `
 <div class="card lg:card-side bg-base-100 shadow-xl">
   <figure><img src="https://placeimg.com/400/400/tech" alt="Album"></figure>
   <div class="card-body">
@@ -100,7 +100,7 @@ const appBodyContent = `
 </div>
 `;
 
-const footerContent = `
+export const footerContent = `
 <footer class="footer items-center p-4 text-neutral-content rounded-md">
   <div class="items-center grid-flow-col mt-4 rounded-lg">
     <a target="_blank" class="invisible md:visible cursor-none">
@@ -120,10 +120,10 @@ const footerContent = `
 `;
 
 // App Initialization
-let writeNavbar = () => (navbar.innerHTML = navbarContent);
-let writeAppHead = () => (appHead.innerHTML = appHeadContent);
-let writeAppBody = () => (appContent.innerHTML = appBodyContent);
-let writeFooter = () => (footer.innerHTML = footerContent);
+export let writeNavbar = () => (navbar.innerHTML = navbarContent);
+export let writeAppHead = () => (appHead.innerHTML = appHeadContent);
+export let writeAppBody = () => (appContent.innerHTML = appBodyContent);
+export let writeFooter = () => (footer.innerHTML = footerContent);
 
 let createApp = () => {
   writeNavbar();
@@ -148,14 +148,20 @@ btnBlizzard.onclick = (event) => {
 
 btnWarcraft.onclick = (event) => {
   event.preventDefault();
+
+  window.open("warcraft-trivia.html", "_self");
 };
 
 btnStarcraft.onclick = (event) => {
   event.preventDefault();
+
+  window.open("starcraft-trivia.html", "_self");
 };
 
 btnDiablo.onclick = (event) => {
   event.preventDefault();
+
+  window.open("diablo-trivia.html", "_self");
 };
 
 // Debug

@@ -85,52 +85,6 @@ const navbarContent = `
 </div>
 `;
 
-const appHeadContent = `
-    <div>
-        <div>
-            <h1>How have you been?</h1>
-        </div>
-        <h2 class="text-sm mt-8 underline">11. Trivia:</h2>
-        <p class="mt-2 md:mt-4">This small web app will allow the user to play a trivia game.</p>
-        <div class="divider"></div> 
-    </div>
-`;
-
-const appBodyContent = `
-<div class="card lg:card-side bg-base-100 shadow-xl">
-  <figure><img src="https://placeimg.com/400/400/tech" alt="Album"></figure>
-  <div class="card-body">
-    <h2 class="card-title">${blizzTitle}:</h2>
-    <p>${blizzQuestion}</p>
-    <div id="options" class="card-actions justify-center md:justify-end">
-      <button id="btn-answerOne" class="btn btn-primary md:btn-outline">${blizzAnswerOneText}</button>
-      <button id="btn-answerTwo" class="btn btn-success md:btn-outline">${blizzAnswerTwoText}</button>
-      <button id="btn-answerThree" class="btn btn-secondary md:btn-outline">${blizzAnswerThreeText}</button>
-      <button id="btn-answerFour" class="btn btn-error md:btn-outline">${blizzAnswerFourText}</button>
-    </div>
-  </div>
-</div>
-`;
-
-const footerContent = `
-<footer class="footer items-center p-4 text-neutral-content rounded-md">
-  <div class="items-center grid-flow-col mt-4 rounded-lg">
-    <a target="_blank" class="invisible md:visible cursor-none">
-        <img src="../images/icons/snowman.png" alt="snowman" class="w-0 md:w-10 h-0 md:h-10">
-    </a>
-    <p>Copyright Kyle Martin © 2022 - All right reserved</p>
-  </div> 
-  <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end invisible md:visible">
-    <a href="https://github.com/Thesnowmanndev" target="_blank">
-        <img src="../images/icons/github.png" alt="github" class="w-0 md:w-10 h-0 md:h-10">
-    </a> 
-    <a href="https://www.linkedin.com/in/developer-kyle-martin/" target="_blank">
-        <img src="../images/icons/linkedin.png" alt="linkedin" class="w-0 md:w-10 h-0 md:h-10">
-    </a> 
-  </div>
-</footer>
-`;
-
 // App Initialization
 let writeNavbar = () => (navbar.innerHTML = navbarContent);
 let writeAppHead = () => (appHead.innerHTML = appHeadContent);
