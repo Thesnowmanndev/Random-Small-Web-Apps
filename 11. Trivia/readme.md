@@ -19,3 +19,19 @@
 4. Preview with Live extension
 
 ## Images
+
+Light Theme - Large Device
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Trivia/11.%20Trivia/src/images/Completed/light-large.png "Light Theme - Large Device")
+
+Dark Theme - Large Device
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Trivia/11.%20Trivia/src/images/Completed/dark-large.png "Dark Theme - Large Device")
+
+Light Theme - Small Device
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Trivia/11.%20Trivia/src/images/Completed/light-small.png "Light Theme - Small Device")
+
+Dark Theme - Small Device
+
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Trivia/11.%20Trivia/src/images/Completed/dark-small.png "Dark Theme - Small Device")
