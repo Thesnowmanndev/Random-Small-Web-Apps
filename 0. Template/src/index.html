@@ -15,8 +15,6 @@
     />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-    <!-- Styles -->
     <link href="/dist/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,13 +30,21 @@
   </head>
   <body class="text-poppins">
     <div
-      class="container mx-auto p-2 md:mt-5 md:pb-5 md:px-5 md:rounded-lg border"
+      class="container mx-auto mt-4 md:mt-6 p-2 md:pb-5 md:px-5 rounded-lg border shadow-xl"
     >
       <div id="navbar"></div>
-      <div id="app-content" class=""></div>
-      <div id="footer" class="flex mt-20 md:mt-96"></div>
     </div>
 
+    <div
+      class="container mx-auto mt-4 md:mt-6 p-2 md:pb-5 md:px-5 rounded-lg border shadow-xl"
+    >
+      <div id="app-head" class="mt-2 md:mt-4 px-2"></div>
+      <div
+        id="app-content"
+        class="mt-4 md:mt-8 flex justify-center w-full"
+      ></div>
+      <div id="footer" class="flex mt-20 md:mt-75"></div>
+    </div>
     <script type="module" src="./app.js"></script>
   </body>
 </html>

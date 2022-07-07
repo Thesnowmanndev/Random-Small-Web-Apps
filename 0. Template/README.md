@@ -1,42 +1,38 @@
-# 0. Template
+# Template App
 
-- Create a template app to copy and paste into every app at the start to speed up development. 
+## Goals
 
-## Concepts Covered
-
-- Installing TailwindCSS / daisyUI
-- Implementing daisyUI components / theme functionality
-- Note: Mobiles do have borders on all sides, im just bad at pixel perfect cropping
+- a
+- b
+- c
 
 ## Setup
 
 1. Fork Repo
-2. Type `npm install`
-3. Type `npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch`
-4. Preview with Live extension
+2. Open folder in VS Code / Open Terminal and type `npm install`
+3. Once previous command is complete type `npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch`
+4. View page, customize, tinker, learn, enjoy!
+
+## Concepts Covered
+
+- 1
+- 2
+- 3
 
 ## Images
 
-Light
+Light Theme - Large Device
 
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/light-normal.png "Light Theme")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/template/0.%20Template/src/images/Completed/light-large.png "Light Theme - Large Device")
 
-Light - Mobile size
+Dark Theme - Large Device
 
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/light-mobile.png "Light Theme in mobile view")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/template/0.%20Template/src/images/Completed/dark-large.png "Dark Theme - Large Device")
 
-Light - Mobile menu open
+Light Theme - Small Device
 
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/light-mobile-menu.png "Light Theme in mobile view with menu open")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/template/0.%20Template/src/images/Completed/light-small.png "Light Theme - Small Device")
 
-Dark
+Dark Theme - Small Device
 
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/dark-normal.png "Dark Theme")
-
-Dark - Mobile size
-
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/dark-mobile.png "Dark Theme in mobile view")
-
-Dark - Mobile menu open
-
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Theme-Swap/07.%20Theme-Swap/images/dark-mobile-menu.png "Dark Theme in mobile view with menu open")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/template/0.%20Template/src/images/Completed/dark-small.png "Dark Theme - Small Device")
