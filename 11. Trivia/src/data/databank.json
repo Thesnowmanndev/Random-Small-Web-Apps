@@ -1,0 +1,84 @@
+{
+  "triviaOne": [
+    {
+      "id": 0,
+      "question": "Lorem ipsum dolor sit?",
+      "answerOne": "Lorem",
+      "answerTwo": "ipsum",
+      "answerThree": "dolor",
+      "answerFour": "sit",
+      "correctAnswer": "Lorem",
+      "option": 1
+    },
+    {
+      "id": 1,
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+      "answerOne": "ipsum",
+      "answerTwo": "dolor",
+      "answerThree": "sit",
+      "answerFour": "Lorem",
+      "correctAnswer": "dolor",
+      "option": 2
+    },
+    {
+      "id": 2,
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing?",
+      "answerOne": "dolor",
+      "answerTwo": "sit",
+      "answerThree": "Lorem",
+      "answerFour": "ipsum",
+      "correctAnswer": "Lorem",
+      "option": 3
+    },
+    {
+      "id": 3,
+      "question": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel?",
+      "answerOne": "sit",
+      "answerTwo": "Lorem",
+      "answerThree": "ipsum",
+      "answerFour": "dolor",
+      "correctAnswer": "dolor",
+      "option": 4
+    },
+    {
+      "id": 4,
+      "question": "Lorem, ipsum dolor?",
+      "answerOne": "Lorem",
+      "answerTwo": "ipsum",
+      "answerThree": "dolor",
+      "answerFour": "sit",
+      "correctAnswer": "Lorem",
+      "option": 1
+    },
+    {
+      "id": 5,
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing?",
+      "answerOne": "ipsum",
+      "answerTwo": "dolor",
+      "answerThree": "sit",
+      "answerFour": "Lorem",
+      "correctAnswer": "dolor",
+      "option": 2
+    },
+    {
+      "id": 6,
+      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto?",
+      "answerOne": "sit",
+      "answerTwo": "Lorem",
+      "answerThree": "ipsum",
+      "answerFour": "dolor",
+      "correctAnswer": "ipsum",
+      "option": 3
+    },
+    {
+      "id": 7,
+      "question": "Lorem, ipsum dolor?",
+      "answerOne": "sit",
+      "answerTwo": "Lorem",
+      "answerThree": "ipsum",
+      "answerFour": "dolor",
+      "correctAnswer": "dolor",
+      "option": 4
+    }
+  ]
+}

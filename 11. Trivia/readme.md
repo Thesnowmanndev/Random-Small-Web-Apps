@@ -15,7 +15,7 @@
 
 1. Fork Repo
 2. Type `npm install`
-3. Type `npx tailwindcss -i ./src/styles/style.css -o ./dist/output.css --watch`
+3. Type `npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch`
 4. Preview with Live extension
 
 ## Images
