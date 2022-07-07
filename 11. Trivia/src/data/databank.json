@@ -1,0 +1,84 @@
+{
+  "triviaOne": [
+    {
+      "id": 0,
+      "question": "JavaScript is a lightweight, interpreted, or ______ compiled language with first-class functions.",
+      "answerOne": "Java Virtual Machine",
+      "answerTwo": "Common Language Runtime",
+      "answerThree": "Just-In-Time",
+      "answerFour": "Ahead-Of-Time",
+      "correctAnswer": "Just-In-Time",
+      "option": 3
+    },
+    {
+      "id": 1,
+      "question": "The standard for JavaScript is the _____ Language Specification.",
+      "answerOne": "IEC/ISO 7185",
+      "answerTwo": "ECMAScript",
+      "answerThree": "W3C",
+      "answerFour": "ANSI/ISO",
+      "correctAnswer": "ECMAScript",
+      "option": 2
+    },
+    {
+      "id": 2,
+      "question": "It is considered best practice to always write a _____ after a statement, even when it is not strictly needed.",
+      "answerOne": "Comma",
+      "answerTwo": "Backslash",
+      "answerThree": "Period",
+      "answerFour": "Semicolon",
+      "correctAnswer": "Semicolon",
+      "option": 4
+    },
+    {
+      "id": 3,
+      "question": "What word below is not a word used to declare a variable in JavaScript?",
+      "answerOne": "void",
+      "answerTwo": "var",
+      "answerThree": "let",
+      "answerFour": "const",
+      "correctAnswer": "void",
+      "option": 1
+    },
+    {
+      "id": 4,
+      "question": "When you declare a variable outside of any function it is called a _____ variable.",
+      "answerOne": "local",
+      "answerTwo": "file",
+      "answerThree": "global",
+      "answerFour": "scope",
+      "correctAnswer": "global",
+      "option": 3
+    },
+    {
+      "id": 5,
+      "question": "A variable that is read-only can be declared by using the _____ keyword.",
+      "answerOne": "let",
+      "answerTwo": "const",
+      "answerThree": "var",
+      "answerFour": "bool",
+      "correctAnswer": "const",
+      "option": 2
+    },
+    {
+      "id": 6,
+      "question": "A _____ literal is zero or more characters inclosed in double or single quotes.",
+      "answerOne": "array",
+      "answerTwo": "bool",
+      "answerThree": "char",
+      "answerFour": "string",
+      "correctAnswer": "string",
+      "option": 4
+    },
+    {
+      "id": 7,
+      "question": "The _____ is an outstanding resource and documentation to learn the JavaScript Language.",
+      "answerOne": "MDN Web Docs",
+      "answerTwo": "MSN News",
+      "answerThree": "Microsoft Docs",
+      "answerFour": "Python Docs",
+      "correctAnswer": "MDN Web Docs",
+      "option": 1
+    }
+  ]
+}
