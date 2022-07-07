@@ -21,10 +21,18 @@
 
 ## Images
 
-Dark
+Light Theme - Large Device
 
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/00.%20Template/images/dark.png "Picture")
+![Alt text](link "Light Theme - Large Device")
 
-Light
+Dark Theme - Large Device
 
-![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/main/00.%20Template/images/light.png "Picture")
+![Alt text](link "Dark Theme - Large Device")
+
+Light Theme - Small Device
+
+![Alt text](link "Light Theme - Small Device")
+
+Dark Theme - Small Device
+
+![Alt text](link "Dark Theme - Small Device")
