@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>JS-Classes App | TheSnowmanndev</title>
+
+    <meta
+      name="description"
+      content="This small app displays the use of classes in JavaScript. See Code."
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+  </head>
+  <body class="text-poppins">
+    <div
+      class="container mx-auto mt-4 md:mt-6 p-2 md:pb-5 md:px-5 rounded-lg border shadow-xl"
+    >
+      <div id="navbar"></div>
+    </div>
+    <div class="flex flex-col items-center gap-20 py-20">
+      <div
+        class="text-base-content shadow-xl xl:rounded-box grid max-w-screen-xl gap-4 bg-opacity-60 xl:pb-0"
+      >
+        <div id="app-head" class="mt-2 md:mt-4 px-2"></div>
+        <div
+          id="app-content"
+          class="flex w-full grid-flow-row grid-cols-12 items-center gap-4 overflow-y-hidden px-10 pt-1 pb-10 md:grid xl:overflow-x-auto"
+        >
+          <div
+            id="card-one"
+            class="col-span-4 row-span-4 mx-2 flex w-72 flex-shrink-0 flex-col xl:mx-0 xl:w-full border rounded-lg"
+          ></div>
+          <div
+            id="card-two"
+            class="col-span-4 row-span-4 mx-2 flex w-72 flex-shrink-0 flex-col xl:mx-0 xl:w-full border rounded-lg"
+          ></div>
+          <div
+            id="card-three"
+            class="col-span-4 row-span-4 mx-2 flex w-72 flex-shrink-0 flex-col xl:mx-0 xl:w-full border rounded-lg"
+          ></div>
+        </div>
+        <div id="footer" class="flex mt-20 md:mt-75"></div>
+      </div>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
