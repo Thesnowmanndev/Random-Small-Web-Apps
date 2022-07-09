@@ -13,7 +13,7 @@ module.exports = {
     logs: true,
     rtl: false,
     prefix: "",
-    darkTheme: "night",
-    themes: ["winter", "night"],
+    darkTheme: "business",
+    themes: ["corporate", "business"],
   },
 };

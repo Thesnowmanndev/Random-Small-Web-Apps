@@ -34,17 +34,32 @@
     >
       <div id="navbar"></div>
     </div>
-
-    <div
-      class="container mx-auto mt-4 md:mt-6 p-2 md:pb-5 md:px-5 rounded-lg border shadow-xl"
-    >
-      <div id="app-head" class="mt-2 md:mt-4 px-2"></div>
+    <div class="flex flex-col items-center gap-20 py-20">
       <div
-        id="app-content"
-        class="mt-4 md:mt-8 flex justify-center w-full"
-      ></div>
-      <div id="footer" class="flex mt-20 md:mt-75"></div>
+        class="text-base-content shadow-xl xl:rounded-box grid max-w-screen-xl gap-4 bg-opacity-60 xl:pb-0"
+      >
+        <div id="app-head" class="mt-2 md:mt-4 px-2"></div>
+        <div
+          id="app-content"
+          class="flex w-full grid-flow-row grid-cols-12 items-center gap-4 overflow-y-hidden px-10 pt-1 pb-10 md:grid xl:overflow-x-auto"
+        >
+          <div
+            id="card-one"
+            class="col-span-4 row-span-4 mx-2 flex w-72 flex-shrink-0 flex-col xl:mx-0 xl:w-full border rounded-lg"
+          ></div>
+          <div
+            id="card-two"
+            class="col-span-4 row-span-4 mx-2 flex w-72 flex-shrink-0 flex-col xl:mx-0 xl:w-full border rounded-lg"
+          ></div>
+          <div
+            id="card-three"
+            class="col-span-4 row-span-4 mx-2 flex w-72 flex-shrink-0 flex-col xl:mx-0 xl:w-full border rounded-lg"
+          ></div>
+        </div>
+        <div id="footer" class="flex mt-20 md:mt-75"></div>
+      </div>
     </div>
+
     <script type="module" src="./app.js"></script>
   </body>
 </html>

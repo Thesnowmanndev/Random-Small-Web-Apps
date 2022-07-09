@@ -28,11 +28,3 @@ Light Theme - Large Device
 Dark Theme - Large Device
 
 ![Alt text](link "Dark Theme - Large Device")
-
-Light Theme - Small Device
-
-![Alt text](link "Light Theme - Small Device")
-
-Dark Theme - Small Device
-
-![Alt text](link "Dark Theme - Small Device")

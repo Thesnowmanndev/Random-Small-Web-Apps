@@ -9,12 +9,11 @@ const githubURL = `https://github.com/Thesnowmanndev`;
 const linkedinURL = `https://www.linkedin.com/in/developer-kyle-martin/`;
 const browserNewTab = `_blank`;
 
-export const navbar = document.querySelector("#navbar");
-export const appHead = document.querySelector("#app-head");
-export const appContent = document.querySelector("#app-content");
-export const footer = document.querySelector("#footer");
+const navbar = document.querySelector("#navbar");
+const appHead = document.querySelector("#app-head");
+const footer = document.querySelector("#footer");
 
-export const navbarContent = `
+const navbarContent = `
 <div class="navbar bg-base-100 py-2 md:px-8">
     <div class="navbar-start">
         <div class="dropdown">
@@ -83,8 +82,8 @@ export const navbarContent = `
 </div>
 `;
 
-export const appHeadContent = `
-    <div>
+const appHeadContent = `
+    <div class="text-slate-800 dark:text-white">
         <div>
             <h1>${greeting}</h1>
         </div>
@@ -94,17 +93,13 @@ export const appHeadContent = `
     </div>
 `;
 
-export const appBodyContent = `
-
-`;
-
-export const footerContent = `
+const footerContent = `
 <footer class="footer items-center p-4 text-neutral-content rounded-md">
   <div class="items-center grid-flow-col mt-4 rounded-lg">
     <a target="${browserNewTab}" class="invisible md:visible cursor-none">
         <img src="./images/snowman.png" alt="snowman" class="w-0 md:w-10 h-0 md:h-10">
     </a>
-    <p>Copyright ${developer} © 2022 - All right reserved</p>
+    <p class="text-slate-900 dark:text-slate-400">Copyright ${developer} © 2022 - All right reserved</p>
   </div> 
   <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end invisible md:visible">
     <a href="${githubURL}" target="${browserNewTab}">
@@ -120,12 +115,10 @@ export const footerContent = `
 // App Initialization
 let writeNavbar = () => (navbar.innerHTML = navbarContent);
 let writeAppHead = () => (appHead.innerHTML = appHeadContent);
-let writeAppBody = () => (appContent.innerHTML = appBodyContent);
 let writeFooter = () => (footer.innerHTML = footerContent);
 
 export let createApp = () => {
   writeNavbar();
   writeAppHead();
-  writeAppBody();
   writeFooter();
 };

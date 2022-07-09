@@ -1,16 +1,23 @@
+import { createApp } from "./components/appMarkup.js";
 import {
-  navbar,
-  appHead,
-  appContent,
-  footer,
-  navbarContent,
-  appHeadContent,
-  appBodyContent,
-  footerContent,
-  createApp,
-} from "./components/appMarkup.js";
+  employeeOneCard,
+  employeeTwoCard,
+  employeeThreeCard,
+} from "./components/employee.js";
+
+let empSlotOne = document.querySelector("#card-one");
+let empSlotTwo = document.querySelector("#card-two");
+let empSlotThree = document.querySelector("#card-three");
 
 createApp();
+
+let writeEmployeeCards = () => (
+  (empSlotOne.innerHTML = employeeOneCard),
+  (empSlotTwo.innerHTML = employeeTwoCard),
+  (empSlotThree.innerHTML = employeeThreeCard)
+);
+
+writeEmployeeCards();
 
 // Debug
 let logClicked = () => console.log("Clicked");
