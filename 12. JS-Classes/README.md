@@ -23,8 +23,8 @@ This small app is my practice attempt at learning JavaScript classes and constru
 
 Light Theme - Large Device
 
-![Alt text](link "Light Theme - Large Device")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/JS-Classes/12.%20JS-Classes/src/images/Completed/light-large.png "Light Theme - Large Device")
 
 Dark Theme - Large Device
 
-![Alt text](link "Dark Theme - Large Device")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/JS-Classes/12.%20JS-Classes/src/images/Completed/dark-large.png "Dark Theme - Large Device")
