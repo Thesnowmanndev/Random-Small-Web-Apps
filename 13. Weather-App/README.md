@@ -25,16 +25,16 @@ This small app is my first attempt on learning how to use JavaScript fetch and A
 
 Large Device - Navbar / Header
 
-![Alt text](link "Large Device - Navbar / Header")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Weather-App/13.%20Weather-App/src/images/Large-Header.png "Large Device - Navbar / Header")
 
 Large Device - Data / Footer (somewhat)
 
-![Alt text](link "Large Device - Data / Footer (somewhat)")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Weather-App/13.%20Weather-App/src/images/Large-Data.png "Large Device - Data / Footer (somewhat)")
 
 Small Device - Navbar / Data
 
-![Alt text](link "Small Device - Navbar / Data")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Weather-App/13.%20Weather-App/src/images/small-data.png "Small Device - Navbar / Data")
 
-Small Device - Data / Footer
+Small Device - Data / Footer (full)
 
-![Alt text](link "Small Device - Data / Footer")
+![Alt text](https://raw.githubusercontent.com/Thesnowmanndev/Random-Small-Web-Apps/Weather-App/13.%20Weather-App/src/images/Small-data-footer.png "Small Device - Data / Footer")
