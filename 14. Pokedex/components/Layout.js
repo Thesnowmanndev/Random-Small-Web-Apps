@@ -1,13 +1,11 @@
-import React from "react";
 import Head from "next/head";
 
-export default function Layout({ title, children }) {
+export default function Layout({ title, description, children }) {
   return (
-    <section lang="en">
+    <section>
       <Head>
-        {/* TODO Optimize SEO */}
         <title>{title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content={description}></meta>
       </Head>
       {/* TODO Navbar */}
       <div>

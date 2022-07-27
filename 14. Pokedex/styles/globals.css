@@ -2,4 +2,372 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
+.primary-font {
+    font-family: 'Kalam', cursive;
+}
+
+/* Primary Colors - primary actions, links, navigation items, icons, accent borders, or text emphasized */
+.primary-bg-100 {
+    background-color: #E6E6FF;
+}
+
+.primary-text-100 {
+    color: #E6E6FF;
+}
+
+.primary-border-100 {
+    border-color: #E6E6FF;
+}
+
+.primary-bg-200 {
+    background-color: #C4C6FF;
+}
+
+.primary-text-200 {
+    color: #C4C6FF;
+}
+
+.primary-border-200 {
+    border-color: #C4C6FF;
+}
+
+.primary-bg-300 {
+    background-color: #A2A5FC;
+}
+
+.primary-text-300 {
+    color: #A2A5FC;
+}
+
+.primary-border-300 {
+    border-color: #A2A5FC;
+}
+
+.primary-bg-400 {
+    background-color: #8888FC;
+}
+
+.primary-text-400 {
+    color: #8888FC;
+}
+
+.primary-border-400 {
+    border-color: #8888FC;
+}
+
+.primary-bg-500 {
+    background-color: #7069FA;
+}
+
+.primary-text-500 {
+    color: #7069FA;
+}
+
+.primary-border-500 {
+    border-color: #7069FA;
+}
+
+.primary-bg-600 {
+    background-color: #5D55FA;
+}
+
+.primary-text-600 {
+    color: #5D55FA;
+}
+
+.primary-border-600 {
+    border-color: #5D55FA;
+}
+
+.primary-bg-700 {
+    background-color: #4D3DF7;
+}
+
+.primary-text-700 {
+    color: #4D3DF7;
+}
+
+.primary-border-700 {
+    border-color: #4D3DF7;
+}
+
+.primary-bg-800 {
+    background-color: #3525E6;
+}
+
+.primary-text-800 {
+    color: #3525E6;
+}
+
+.primary-border-800 {
+    border-color: #3525E6;
+}
+
+.primary-bg-900 {
+    background-color: #1D0EBE;
+}
+
+.primary-text-900 {
+    color: #1D0EBE;
+}
+
+.primary-border-900 {
+    border-color: #1D0EBE;
+}
+
+.primary-bg-1000 {
+    background-color: #0C008C;
+}
+
+.primary-text-1000 {
+    color: #0C008C;
+}
+
+.primary-border-1000 {
+    border-color: #0C008C;
+}
+
+/* Accent Colors - accent actions, links, navigation items, icons, accent borders, or text emphasized */
+.accent-bg-100 {
+    background-color: #EFFCF6;
+}
+
+.accent-text-100 {
+    color: #EFFCF6;
+}
+
+.accent-border-100 {
+    border-color: #EFFCF6;
+}
+
+.accent-bg-200 {
+    background-color: #C6F7E2;
+}
+
+.accent-text-200 {
+    color: #C6F7E2;
+}
+
+.accent-border-200 {
+    border-color: #C6F7E2;
+}
+
+.accent-bg-300 {
+    background-color: #8EEDC7;
+}
+
+.accent-text-300 {
+    color: #8EEDC7;
+}
+
+.accent-border-300 {
+    border-color: #8EEDC7;
+}
+
+.accent-bg-400 {
+    background-color: #65D6AD;
+}
+
+.accent-text-400 {
+    color: #65D6AD;
+}
+
+.accent-border-400 {
+    border-color: #65D6AD;
+}
+
+.accent-bg-500 {
+    background-color: #3EBD93;
+}
+
+.accent-text-500 {
+    color: #3EBD93;
+}
+
+.accent-border-500 {
+    border-color: #3EBD93;
+}
+
+.accent-bg-600 {
+    background-color: #27AB83;
+}
+
+.accent-text-600 {
+    color: #27AB83;
+}
+
+.accent-border-600 {
+    border-color: #27AB83;
+}
+
+.accent-bg-700 {
+    background-color: #199473;
+}
+
+.accent-text-700 {
+    color: #199473;
+}
+
+.accent-border-700 {
+    border-color: #199473;
+}
+
+.accent-bg-800 {
+    background-color: #147D64;
+}
+
+.accent-text-800 {
+    color: #147D64;
+}
+
+.accent-border-800 {
+    border-color: #147D64;
+}
+
+.accent-bg-900 {
+    background-color: #0C6B58;
+}
+
+.accent-text-900 {
+    color: #0C6B58;
+}
+
+.accent-border-900 {
+    border-color: #0C6B58;
+}
+
+.accent-bg-1000 {
+    background-color: #014D40;
+}
+
+.accent-text-1000 {
+    color: #014D40;
+}
+
+.accent-border-1000 {
+    border-color: #014D40;
+}
+
+/* Neutrals - Most text, backgrounds, borders, secondary buttons, links */
+.neutral-bg-100 {
+    background-color: #F0F4F8;
+}
+
+.neutral-text-100 {
+    color: #F0F4F8;
+}
+
+.neutral-border-100 {
+    border-color: #F0F4F8;
+}
+
+.neutral-bg-200 {
+    background-color: #D9E2EC;
+}
+
+.neutral-text-200 {
+    color: #D9E2EC;
+}
+
+.neutral-border-200 {
+    border-color: #D9E2EC;
+}
+
+.neutral-bg-300 {
+    background-color: #BCCCDC;
+}
+
+.neutral-text-300 {
+    color: #BCCCDC;
+}
+
+.neutral-border-300 {
+    border-color: #BCCCDC;
+}
+
+.neutral-bg-400 {
+    background-color: #9FB3C8;
+}
+
+.neutral-text-400 {
+    color: #9FB3C8;
+}
+
+.neutral-border-400 {
+    border-color: #9FB3C8;
+}
+
+.neutral-bg-500 {
+    background-color: #829AB1;
+}
+
+.neutral-text-500 {
+    color: #829AB1;
+}
+
+.neutral-border-500 {
+    border-color: #829AB1;
+}
+
+.neutral-bg-600 {
+    background-color: #627D98;
+}
+
+.neutral-text-600 {
+    color: #627D98;
+}
+
+.neutral-border-600 {
+    border-color: #627D98;
+}
+
+.neutral-bg-700 {
+    background-color: #486581;
+}
+
+.neutral-text-700 {
+    color: #486581;
+}
+
+.neutral-border-700 {
+    border-color: #486581;
+}
+
+.neutral-bg-800 {
+    background-color: #334E68;
+}
+
+.neutral-text-800 {
+    color: #334E68;
+}
+
+.neutral-border-800 {
+    border-color: #334E68;
+}
+
+.neutral-bg-900 {
+    background-color: #243B53;
+}
+
+.neutral-text-900 {
+    color: #243B53;
+}
+
+.neutral-border-900 {
+    border-color: #243B53;
+}
+
+.neutral-bg-1000 {
+    background-color: #102A43;
+}
+
+.neutral-text-1000 {
+    color: #102A43;
+}
+
+.neutral-border-1000 {
+    border-color: #102A43;
+}
