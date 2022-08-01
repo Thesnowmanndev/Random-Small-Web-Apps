@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .primary-font {
-    font-family: 'Kalam', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Primary Colors - primary actions, links, navigation items, icons, accent borders, or text emphasized */

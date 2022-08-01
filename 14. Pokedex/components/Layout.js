@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "./Navbar";
 
 export default function Layout({ title, description, children }) {
   return (
@@ -7,8 +8,8 @@ export default function Layout({ title, description, children }) {
         <title>{title}</title>
         <meta name="description" content={description}></meta>
       </Head>
-      {/* TODO Navbar */}
       <div>
+        <Navbar />
         <main className="container mx-auto">{children}</main>
       </div>
       {/* TODO Footer */}
