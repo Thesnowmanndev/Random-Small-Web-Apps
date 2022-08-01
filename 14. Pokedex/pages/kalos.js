@@ -22,7 +22,7 @@ export default function kalos({ pokemon }) {
               </p>
             </div>
             <div className="px-20 py-5 text-end">
-              <Link href="">
+              <Link href="https://github.com/Thesnowmanndev/pokedex">
                 <a target="_blank">
                   <button className="flex-shrink-0 invisible px-4 py-2 text-white rounded-lg shadow-xl font-inset bg-sky-500 hover:bg-sky-700 lg:visible primary-font">
                     Submit Issues

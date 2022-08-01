@@ -11,19 +11,19 @@ export default function Home({ pokemon }) {
     <Layout title="Kanto Pokedex" description={description}>
       <main className="py-20">
         <div className="w-full bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-          <div className="flex items-end justify-between mb-12 bg-white border-b-2 rounded-t-lg header">
+          <div className="flex justify-between mb-12 bg-white border-b-2 rounded-t-lg header">
             <div className="px-5 pt-10 title">
-              <p className="text-4xl text-gray-600 primary-font">
+              <p className="flex justify-center text-4xl text-gray-600 primary-font">
                 Kanto Region Pokemon
               </p>
-              <p className="pt-5 mb-5 text-xl font-light text-gray-500">
+              <p className="flex justify-center pt-5 mb-5 text-xl font-light text-gray-500">
                 The Pokemon listed below are the Pokemon originally developed
                 for the Blue, Red, Yellow, and Green (Japanese) versions of the
                 game released on the Gameboy.
               </p>
             </div>
             <div className="px-20 py-5 text-end">
-              <Link href="">
+              <Link href="https://github.com/Thesnowmanndev/pokedex">
                 <a target="_blank">
                   <button className="flex-shrink-0 invisible px-4 py-2 text-white rounded-lg shadow-xl font-inset bg-sky-500 hover:bg-sky-700 lg:visible primary-font">
                     Submit Issues
